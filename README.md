@@ -1,5 +1,7 @@
 # react_aspnetcore_pluralsight
 
+This sample good for building <b>Webpack configuration</b>
+
 <h3>Pluralsight source found here : https://github.com/pkellner/pluralsight-course-react-aspnet-core</h3>
 <ul>
 <li>

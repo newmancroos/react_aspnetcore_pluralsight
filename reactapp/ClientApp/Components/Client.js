@@ -1,5 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FullPage from "./common/FullPage";
+import { BrowserRouter as Router } from "react-router-dom";
 
-ReactDOM.render(<FullPage />, document.getElementById("app"));
+import FullPage from "./common/FullPage";
+//import App from "./Components/App";
+
+const render = Component => {
+  ReactDOM.render(
+    <Router>
+      <FullPage />
+    </Router>,
+    document.getElementById("root")
+  );
+};
+
+// render(App);
